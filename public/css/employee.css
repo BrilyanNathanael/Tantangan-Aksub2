@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+
+.container .content {
+    background-color: burlywood;
+    padding: 3em 8em;
+    border: 4px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px white;
+}
+
+.container .content form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.container .content form button {
+    width: 5em;
+    margin-top: 1em;
+    background-color: burlywood;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.container .content form input {
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.container .content h2,
+.container .content label {
+    color: white;
+}
